@@ -20,19 +20,59 @@
 	<section>
 		<h2>Galeria de Tecnologia</h2>
 		 <figure>
-            <img src="img/computador.jpg" width="30%" height="30%"  alt="imagem com computador desktop completo com gabinete, monitor, teclado e mouse.">
+            <img src="img/computador.jpg" width="30%" height="30%"  alt="imagem com computador desktop completo com gabinete, monitor, teclado e mouse." />
             <figcaption>Estação de desenvolvimento.</figcaption>
         </figure>
 			<figure>
-            <img src="img/robotica (1).jpg" width="30%" height="30%"  alt="imagem mostra a robótica na prática.">
+            <img src="img/robotica (1).jpg" width="30%" height="30%"  alt="imagem mostra a robótica na prática." />
             <figcaption>Robótica e automação.</figcaption>
         </figure>
 	<h3>Imagem responsiva</h3>
 		<picture>
-			<source media="(min width="1024px")" srcset="img/laboratorio.jpg" type="imagem/jpg"/>
-				<source media="(min width="768px")" srcset="img/laboratorio.jpg" type="imagem/jpg"/>
-            <img src="img/laboratorio.jpg" width="30%" height="30%"  alt="A tecnologia está presente no desenvolvimento de sistemas, na automação e na comunicação.">
+			<source media="(min-width: 1024px)" srcset="img/laboratorio.jpg" type="image/jpg" />
+			<source media="(max-width: 768px)" srcset="img/laboratorio-mobile.jpg" type="image/jpg" />
+            <img src="img/laboratorio.jpg" width="30%" height="30%" src="laboratorio-mobile.jpg" width="30%" height="30%" alt="Um laboratório de computadores." />
         </picture>
+<p>A tecnologia está presente no desenvolvimento de sistemas, na automação e na comunicação.</p>
 	</section>
+		<hr />
+	<section>
+	<h2>Podcast de Tecnologia</h2>
+		<h3>O futuro da programação</h3>
+			<p>Neste episódio, discutimos linguagens de programação, inteligência artificial e carreira.</p>
+	<audio controls>
+		<source src="img/DevNaEstrada.mp3" type="audio/mpeg" />
+	</audio>
+ </section>
+	<hr />
+<section>
+	<h2>Aula em Vídeo</h2>
+		<h3>Introdução á programação</h3>
+			<video width="480px" controls poster="img/capa-video.jpg">
+				<source src="img/aula.mp4" type="video/mp4" />
+		<track src="legenda.vtt" kind="subtitles" srclang="pt-BR" label="Portugues" default />	
+		</video>
+			<p>Assista à aula e acompanhe as legendas disponíveis no reprodutor.</p>
+	</section>
+		<hr />
+	<section>
+		<h2>Mapa Interativo de Componentes</h2>
+			<p>Clique na área correspondente para conhecer diferentes componentes de um computador</p>
+		<img src="img/mapa-componentes.jpg" alt="imagem mostra para que serve cada peça do PC" usemap="#usar_mapa"/>
+			<map name="usar_mapa">
+				<area shape="rect" coords="10,195,325,248" href="#processadores" alt="processador" />
+				<area shape="rect" coords="10,309,325,362" href="#memoria ram" alt="memoria ram" />
+				<area shape="rect" coords="10,423,325,496" href="#armazenamento (ssd/hd)" alt="armazenamento (ssd/hd)" />
+		<h3>processador</h3>
+			<p>Executa instruções e realiza operações</p>
+		<h3>Memória RAM</h3>
+			<p>Armazena temporariamente dados em uso</p>
+		<h3>Armazenamento</h3>
+			<p>Guarda arquivos e programas de forma persistente.</p>
+	</section>
+		<hr />
+	<section>
+		<h2>Biblioteca Digital</h2>
+			<h3>Apostila HTML</h3>
 </body>
 </html>
