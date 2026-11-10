@@ -1,0 +1,10 @@
+Starting the 'Apache24' service
+The 'Apache24' service is running.
+bly determine the server's fully qualified domain name, using fe80::9d86:38cd:b5ed:8083. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 09 19:39:31.344968 2026] [mpm_winnt:notice] [pid 15072:tid 456] AH00455: Apache/2.4.70 (Win64) configured -- resuming normal operations
+[Mon Nov 09 19:39:31.344968 2026] [mpm_winnt:notice] [pid 15072:tid 456] AH00456: Apache Lounge VS18 Server built: Nov  5 2026 09:10:53
+[Mon Nov 09 19:39:31.344968 2026] [core:notice] [pid 15072:tid 456] AH00094: Command line: 'C:\\WebServer\\Apache24\\bin\\httpd.exe -d C:/WebServer/Apache24'
+[Mon Nov 09 19:39:31.348968 2026] [mpm_winnt:notice] [pid 15072:tid 456] AH00418: Parent: Created child process 18224
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::9d86:38cd:b5ed:8083. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::9d86:38cd:b5ed:8083. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 09 19:39:31.536967 2026] [mpm_winnt:notice] [pid 18224:tid 468] AH00354: Child: Starting 64 worker threads.
